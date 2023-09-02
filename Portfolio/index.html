@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhil Jainth</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d0bb01e83a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="images/logo3.png" alt="">
+                <ul id="sidemenubar">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="menubarclose()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="menubaropen()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Akhil Jainth</span><br> from India</h1>
+            </div>
+        </div>
+   </div>
+   <!-- about section -->
+   <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/hi4.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <div class="about-me">
+                        <p>Hi, I'm Akhil Jainth a <span style="color: #2bb2a4;">Web Developer</span> who is passionate about his work. Pursuing Engineering with Computer Science & Engineering.
+                        </p>
+                    </div>
+                    <div class="tab-titles">
+                        <p id = "tab" class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p id = "tab" class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p id = "tab" class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>HTML, CSS & JS</li>
+                            <li><span>Web Development</span><br>Full Stack Web Developer (Express.js, Node.js)</li>
+                            <li><span>Programming</span><br>C/C++, Python, Java<br></li>
+                            <li><span>Database</span><br>MongoDB<br></li>
+                            <li><span>Framework</span><br>Bootstrap<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Web Developer at Bharat Intern</li>
+                            <li><span>2023 - Current</span><br>Web  Developer Intern at CodSoft</li>
+                            <!-- <li><span>2023 - Current</span><br><br></li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025 - Ongoing </span><br>BTech from MIT Meerut, CGPA (7.02)</li>
+                            <li><span>2020 - 21</span><br>Internediate with 85%</li>
+                            <li><span>2018 - 2019</span><br>Highschool with 89%<br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!-- services -->
+   <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> With a passion for innovation, my web designing services offer a unique blend of creativity and functionality. I specialize in creating visually stunning and user-centric websites that not only capture attention but also engage and convert visitors effectively.</p>
+                    <a href="#portfolio">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UX/UI</h2>
+                    <p>Elevating user experiences through intuitive UI/UX design is my forte. With a keen eye for detail, I craft interfaces that not only captivate visually but also ensure seamless navigation and interaction. </p>
+                    <a href="#portfolio">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web App Design</h2>
+                    <p>Merging creativity and functionality, my web app designing services are synonymous with exceptional quality. I specialize in crafting user-centered web app interfaces that not only showcase innovative designs but also guarantee a smooth and engaging user experience. </p>
+                    <a href="#portfolio">Learn more</a>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/game3d.png" alt="">
+                    <div class="layer">
+                        <h3>Simon Game</h3>
+                        <p>
+                            Immerse yourself in nostalgia with my captivating memory game. Uncover cards and test your recall in a visually engaging and thoughtfully designed interface. With varying levels of difficulty and a charming aesthetic, this memory game offers both entertainment and cognitive challenge for players of all ages.</p>
+                        <a href="https://jainthakhil.github.io/Simon_Game/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/3dtodo.png" alt="">
+                    <div class="layer">
+                        <h3>Todo List App</h3>
+                        <p>
+                            Introducing my meticulously crafted todo list app: Your ultimate tool for staying organized and productive. Seamlessly manage tasks, set priorities, and track your progress with an intuitive interface designed to simplify your day. Elevate your efficiency with this app that combines user-friendly functionality with a sleek, modern design.</p>
+                        <a href="https://weak-teal-seal-hose.cyclic.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/3dweather.png" alt="">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>
+                            Experience weather like never before with my innovative weather app. Stay informed about forecasts, real-time conditions, and more, all presented through a beautifully designed interface. Whether planning your day or traveling, this app brings you accurate weather data wrapped in a user-friendly design that's a joy to interact with.</p>
+                        <a href="jainthakhil.infinityfreeapp.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- See more works///// -->
+            <div class="work-list" id="hidden-list">
+                <div class="work">
+                    <img src="images/temp.jpg" alt="">
+                    <div class="layer">
+                        <h3>Temperature Converter</h3>
+                        <p> 
+                            Transform temperature effortlessly with our innovative converter app! Whether it's Celsius to Fahrenheit or Kelvin to Rankine, our app provides instant and accurate conversions for all your temperature needs. Enjoy a user-friendly interface, real-time results, and never struggle with temperature conversions again. Download now and experience temperature conversion at your fingertips!</p>
+                        <a href="https://jainthakhil.github.io/Temperature_Converter/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/netfliximg.png" alt="">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>
+                            Step into a world of endless entertainment with our remarkable Netflix clone app! Immerse yourself in a vast library of movies, TV shows, and original content. With a seamless and intuitive design, personalized recommendations, and multi-device sync, our app offers the ultimate streaming experience</p>
+                        <a href="https://jainthakhil.github.io/netflix-clone/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/drum.jpg" alt="">
+                    <div class="layer">
+                        <h3>Drum kit Game</h3>
+                        <p>
+                            Unleash your inner drummer with our exhilarating drum kit game! Experience the thrill of creating rhythms using a diverse range of sounds, from classic snares to futuristic electronic beats. Perfect for beginners and pros alike, our game offers an immersive drumming experience with realistic visuals and responsive controls.</p>
+                        <a href="https://jainthakhil.github.io/Drum_kit/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" id="seeMoreButton">See More</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>akhil.130241@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9027235630</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/akhil-jainth-aj16102003/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/my-resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required autocomplete="off">
+                        <input type="email" name="Email" placeholder="Your email" required autocomplete="off">
+                        <textarea name="Message" id="" cols="30" rows="5"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Made by Akhil Jainth <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+   
+<script src="script.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwx4h2-l1S2ItmilFpajDTmsQ6t1Z8RLrRLgozzCXiFOnPWh5afWVTI3s-n0ztdc2N2/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },1500);
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>    
+</body>
+</html>
